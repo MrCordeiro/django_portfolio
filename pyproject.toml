@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = "Resume demo. Reference: https://www.youtube.com/watch?v=0oSsLbh_Kv4"
+authors = ["Bobby Stearman"]
+license = "GNU General Public License v3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^3.2.8"
+Pillow = "^8.4.0"
+django-ckeditor = "^6.1.0"
+python-dotenv = "^0.19.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
